@@ -1,0 +1,101 @@
+#butunekran {
+    background-color: rgb(200, 206, 200);
+    background-size: 100% 100%;
+}
+
+.row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-right: 0px!important;
+}
+
+.başlık {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(71, 114, 156) ;
+    margin-top: 70;
+    padding-bottom: 20;
+    text-align: Center;
+    font-size: 50;
+    color: rgb(71, 114, 156)
+}
+
+.merhaba {
+    margin-top: 120px;
+
+    font-size: 75;
+
+    color: rgb(189, 192, 189);
+}
+
+.nav{
+   padding-top: 10;
+  padding-right: 15;
+  font-size: 20;
+}
+.adım {
+
+    font-size: 75;
+    color: rgb(189, 192, 189);
+}
+
+.hosgeldiniz {
+    font-size: 40;
+    color: rgb(189, 192, 189);
+
+}
+
+p {
+    color: rgb(76, 105, 134);
+    font-size: 20;
+}
+
+.resim {
+    height: 340;
+    width: 260;
+    margin-top: 70;
+    margin-left: 60;
+    margin-bottom:30 ;
+    padding-bottom: 40;
+
+
+}
+
+.gif {
+    height: 200;
+    width: 250;
+    margin-left: 16;
+    margin-top: 10;
+    margin-bottom: 20;
+    
+}
+th,td{
+    border: 3px solid rgb(128, 131, 128);
+
+}
+
+
+.tablo {
+
+    border-style: solid;
+    border-width: 5;
+    margin-top: 20;
+    color: rgb(71, 71, 167);
+    text-align: center;
+    width: 75%;
+    height: 200;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.hakkındaborder {
+
+    border: dotted;
+    border-width: 5px;
+    border-color: rgb(108, 110, 108);
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
