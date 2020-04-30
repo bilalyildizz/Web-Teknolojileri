@@ -1,0 +1,46 @@
+.slider{
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: auto;
+}
+.slider-content{
+    position: absolute;
+    width:800px;
+    left: 0;
+    animation: slide 10px infinite;
+}
+.slider-item{
+    width: 25%;
+   float: left;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(-400px);
+    }
+    20%{
+        transform: translateX(-400px);
+    }
+    30%{
+        transform: translateX(-800px);
+    }
+    40%{
+        transform: translateX(-800px);
+    }
+    50%{
+        transform: translateX(-1200px);
+    }
+    60%{
+        transform: translateX(-1200px);
+    }
+   
+    70%{
+        transform: translateX(0px);
+    }
+
+
+}
