@@ -1,0 +1,294 @@
+
+html{
+    background-color:rgb(228, 236, 228);
+}
+#butunekran {
+    
+    background-color: rgb(228, 236, 228);
+    background-size: 100% 100%;
+}
+#iletisim-ekran{
+    background-size: 100% 100%;
+    background-color: rgb(228, 236, 228);
+}
+.iletisim_buton{
+    margin-top: 30px;
+}
+
+.elazıgsporresim{
+
+    height: 500px;
+    width: 90%;
+    margin-top: 80;
+    margin-left: 40;
+    margin-bottom:30 ;
+    padding-bottom: 40;
+}
+
+.sehirresmi{
+   height: 400px;
+    width: 90%;
+    margin-top: 70;
+    
+    margin-bottom:30 ;
+    padding-bottom: 40;
+}
+.cv-table{
+    border: 3px solid  rgb(58, 145, 185);
+   margin: auto;
+   
+
+}
+.cv-tr{
+    border: 3px solid  rgb(58, 145, 185);
+width: 100%;
+}
+.cv-td{
+    border: 3px solid  rgb(58, 145, 185);
+    padding: 10px;
+  
+   
+    font-size: 17px;
+    text-align: center;
+}
+.cv-tr:hover{
+    background-color: rgb(105, 189, 182);
+}
+.cv-th{
+    background-color: rgb(93, 123, 143);
+    text-align: center;
+   
+}
+
+.iletisim-text{
+    border: 2px solid rgb(110, 181, 214);
+    border-radius: 4px;
+    
+      padding: 10px;
+      box-sizing: border-box;
+  }
+  .iletisim-tr{
+      color: rgb(52, 65, 180);
+  }
+  .iletisim-table{
+      margin: auto;
+     margin-top: 15px;
+     
+
+  }
+  
+
+.iletisim-td{
+       
+    margin: 20px;
+}
+
+.login-ekran{
+    width: 100%;
+    height: 100%;
+  background-color: rgb(200, 206, 200); ;
+}
+
+
+#login-resim{
+    
+    margin-top: 50px;
+
+}
+
+#login-td{
+    border: 0px;
+     padding: 10px;
+    
+}
+#login-tr{
+    border: 0px;
+    
+}
+.login-tablo{
+
+    margin: auto;
+   margin-top: 80px;
+    
+}
+
+#keban{
+    text-align: left;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+#meryem{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+#hazar{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+#harput{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+#elazıg{
+    margin-left: 50px;
+    font-size: 25px;
+    text-align: left;
+    color: blue;
+
+
+}
+#carouselExampleIndicators{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.d-block{
+    height: 550px; 
+}
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+
+    padding:12px 16px;
+
+    background-color: #737775;
+
+    color:white;
+    font-size: 13px;
+
+    text-decoration:none; 
+}
+li a:hover{
+    background-color:#4ea2d3; 
+    color: white;
+}
+
+.row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-right: 0px!important;
+}
+
+
+.başlık {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(71, 114, 156) ;
+    margin-top: 70px;
+    padding-bottom: 20;
+    text-align: Center;
+    font-size: 50;
+    color: rgb(71, 114, 156)
+}
+
+.merhaba {
+    margin-top: 70px;
+
+    font-size: 75;
+
+    color: rgb(219, 223, 219);
+}
+
+
+.adım {
+
+    font-size: 75;
+    color: rgb(219, 223, 219);
+}
+
+.hosgeldiniz {
+    font-size: 40;
+    color: rgb(219, 223, 219);
+    margin-bottom: 70px;
+
+}
+
+
+p {
+    color: rgb(76, 105, 134);
+    font-size: 20;
+}
+
+.resim {
+    height: 340;
+    width: 260;
+    margin-top: 70;
+    margin-left: 20;
+    margin-bottom:30 ;
+    padding-bottom: 40;
+
+
+}
+#elazıgstadresim{
+
+    
+    width: 90%;
+    margin-top: 80;
+    margin-left: 40;
+    padding-bottom: 40;
+    margin-bottom: 0px;
+}
+
+
+.gif {
+   width: 100%;
+   height: 200px;
+   margin-top: 20px;
+    
+}
+.menu{
+    background-color: #737775;
+}
+
+#cv-tr{
+    border: 3px solid rgb(128, 131, 128);
+}
+#cv-td{
+    border: 3px solid rgb(128, 131, 128);
+}
+
+
+.tablo {
+
+    border-style: solid;
+    border-width: 5;
+    margin-top: 20;
+    color: rgb(71, 71, 167);
+    text-align: center;
+    width: 75%;
+    height: 200;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.hakkındaborder {
+
+    border: dotted;
+    border-width: 5px;
+    border-color: rgb(108, 110, 108);
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
+

@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="duzenleme.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Giriş</title>
+
+
+</head>
+
+
+
+<body>
+
+<div class="login-ekran">
+   
+    
+
+
+    
+    <div class="row" >
+        <div class="col-md-12">
+            <form action="login-kontrol.php" method="POST">
+                <table class="login-tablo">
+                    <tr>
+                        <td colspan="2"><h1 class="başlık">Kullanıcı Girişi</h1></td>
+                    </tr>
+                    <tr id="login-tr">
+                        <td id="login-td">Kullanıcı adı:</td>
+                        <td id="login-td"><input type="email" name="kullanici_adi" required></td>
+                    </tr>
+                    <tr id="login-tr">
+                        <td id="login-td">Şifre :</td>
+                        <td id="login-td"><input type="password" name="sifre" required> </td>
+                    </tr>
+                    <tr id="login-tr">
+                        <td id="login-td" colspan="2"><input type="submit" name="Gönder"></td>
+                    </tr>
+
+                </table>
+
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+
+</html>

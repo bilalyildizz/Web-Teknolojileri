@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="duzenleme.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <title> İletişim</title>
+
+
+
+
+        <script type="text/javascript">
+            function checkForm()
+            {  
+             document.forms[0].reset();
+            }
+
+            
+
+           
+            function kontrol()
+            {
+                var form = document.forms["form1"].value;
+                var isim =document.forms["form1"]["fname"].value;
+                var soyad =document.forms["form1"]["surname"].value;
+                var email =document.forms["form1"]["email"].value;
+                var cinsiyet =document.forms["form1"]["gender"].value;
+                var sehir =document.forms["form1"]["sehir"].value;
+                var dgmtarihi =document.forms["form1"]["birthday"].value;
+
+                var email = document.forms["form1"]["email"].value;
+                var atpos=email.indexOf("@");
+                var dotpos=email.lastIndexOf(".");
+                if(isim==""){
+                    alert(" İsim alanı boş bırakılamaz");
+                  
+                   
+                }
+                else if(soyad==""){
+                    alert("Soyadı alanı boş bırakılamaz");
+                    
+                   
+                }
+                else if(email==""){
+                    alert(" Email alanı boş bırakılamaz");
+                   
+                }
+                else if ( atpos<1 || dotpos<atpos+2 || dotpos+2>=email.length )
+                {
+                    alert("Geçerli email adresi girin");
+                    
+                }     
+                else if(cinsiyet==""){
+                    alert(" Cinsiyet alanı boş bırakılamaz");
+                    
+                }
+                else if(sehir==""){
+                    alert(" Şehir alanı boş bırakılamaz");
+                    
+                }
+                else if(dgmtarihi==""){
+                    alert("Doğum Tarihi alanı boş bırakılamaz");
+                   
+                }
+               
+
+            }
+            
+           
+            </script>
+           <style>
+               .adana{
+                width: 100%; padding-bottom: 25px;
+               }
+           </style>
+
+</head>
+
+<body>
+    <div  class="iletisim-ekran container">
+        <div class="row" style="padding-bottom: 0px;">
+            <div class="col-md-12">
+                <h1 class="başlık"> İletişim</h1>
+            </div>
+        </div>
+        <form name="form1" style="margin-bottom: 0px;" action="iletisim_control.php"  onsubmit="return kontrol()"  method="post">
+
+
+            <div class=" row" >
+                
+                    <div class="col-md-6">
+
+
+                        <table class="iletisim-table">
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">AD: </td>
+                                <td class="iletisim-td"><input class="iletisim-text"  type="text" id="fname" name="fname">
+                                </td>
+                            </tr>
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">SOYAD:</td>
+                                <td class="iletisim-td"><input class="iletisim-text" type="text" id="surname" name="surname">
+                                </td>
+                            </tr>
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td"> <label for="email">Email</label></td>
+                                <td class="iletisim-td"> <input class="iletisim-text" type="email" id="email" name="email">
+                                </td>
+                            </tr>
+
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">Cinsiyet: </td>
+                                <td class="iletisim-td"> <input type="radio" id="kadın" name="gender" value="kadın">
+                                    <label for="male">Kadın</label>
+                                    <input type="radio" id="erkek" name="gender" value="erkek">
+                                    <label for="female">Erkek</label>
+                                    <input type="radio" id="diğer" name="gender" value="diğer">
+                                    <label for="other">Dİğer</label></td>
+                            </tr>
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">ŞEHİR:</td>
+                                <td class="iletisim-td"><select id="sehir" size="2" name="sehir">
+                                        <option value="istanbul">İstanbul</option>
+                                        <option value="izmir">İzmir</option>
+                                        <option value="ankara">Ankara</option>
+                                        <option value="skisehir">Eskişehir</option>
+                                        <option value="sivas">Sivas</option>
+                                        <option value="adana">Adana</option>
+                                    </select></td>
+                            </tr>
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">
+                                    <for="birthday">DOĞUM TARİHİ:</label>
+                                </td>
+                                <td class="iletisim-td"> <input label class="iletisim-text" type="date" id="birthday"
+                                        name="birthday"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <table class="iletisim-table">
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">Yazılım bilginiz:</td>
+                                <td class="iletisim-td"> 
+                                    <input type="checkbox" id="html" name="html" value="html">
+                                    <label for="vehicle1"> Html</label><br>
+                                    <input type="checkbox" id="html" name="css" value="css">
+                                    <label for="vehicle2"> Css</label><br>
+                                
+                            </tr>
+
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">EK:</td>
+                                <td class="iletisim-td"><textarea class="iletisim-text" name="message" rows="10" cols="24"></textarea></td>
+                            </tr>
+
+
+                            <tr class="iletisim-tr">
+                                <td class="iletisim-td">
+                                    <input class="btn btn-primary iletisim_buton"  type="submit" onclick="formKontrol()" name="submit" value="Send">
+                                </td>
+                                <td class="iletisim-td">
+                                    <input class="btn btn-danger iletisim_buton" onclick="checkForm();" type="button" value="Reset">
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
